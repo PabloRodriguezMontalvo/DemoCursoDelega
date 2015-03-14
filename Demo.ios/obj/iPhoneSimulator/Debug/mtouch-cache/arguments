@@ -1,0 +1,31 @@
+# Version: 8.8.0.2 (ccfcd59)
+# [first argument, ignore] # /Users/luisfelipegillamaignere/Projects/DemoCursoDelega/Demo.ios/bin/iPhoneSimulator/Debug/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/8.8.0.2/bin/mtouch-64 \
+	-sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--cache \
+	/Users/luisfelipegillamaignere/Projects/DemoCursoDelega/Demo.ios/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--executable \
+	Demo.ios \
+	--nomanifest \
+	--nosign \
+	-sim \
+	/Users/luisfelipegillamaignere/Projects/DemoCursoDelega/Demo.ios/bin/iPhoneSimulator/Debug/Demo.ios.app \
+	-r \
+	/Users/luisfelipegillamaignere/Projects/DemoCursoDelega/DemoCursoDelega/bin/Debug/DemoCursoDelega.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/monotouch.dll \
+	-debug \
+	-nolink \
+	-sdk \
+	8.2 \
+	-targetver \
+	7.0 \
+	--abi=i386 \
+	/Users/luisfelipegillamaignere/Projects/DemoCursoDelega/Demo.ios/bin/iPhoneSimulator/Debug/Demo.ios.exe \

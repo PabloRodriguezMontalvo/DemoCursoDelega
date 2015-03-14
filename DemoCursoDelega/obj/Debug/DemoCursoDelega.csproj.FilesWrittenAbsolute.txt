@@ -1,0 +1,5 @@
+/Users/luisfelipegillamaignere/Projects/DemoCursoDelega/DemoCursoDelega/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/luisfelipegillamaignere/Projects/DemoCursoDelega/DemoCursoDelega/bin/Debug/DemoCursoDelega.dll.mdb
+/Users/luisfelipegillamaignere/Projects/DemoCursoDelega/DemoCursoDelega/bin/Debug/DemoCursoDelega.dll
+/Users/luisfelipegillamaignere/Projects/DemoCursoDelega/DemoCursoDelega/obj/Debug/DemoCursoDelega.dll
+/Users/luisfelipegillamaignere/Projects/DemoCursoDelega/DemoCursoDelega/obj/Debug/DemoCursoDelega.dll.mdb
