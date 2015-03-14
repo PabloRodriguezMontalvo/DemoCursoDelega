@@ -8,8 +8,8 @@ namespace DemoCursoDelega.ViewModel
 	public class ListadoViewModel:ViewModelBase
 	{
 
-		List<Persona> personas;
-		Persona personaSeleccionada;
+		public List<Persona> personas;
+		public Persona personaSeleccionada;
 
 		public ListadoViewModel(){
 		

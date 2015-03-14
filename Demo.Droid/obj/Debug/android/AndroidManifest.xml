@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="Demo.Droid">
   <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="16" />
-  <application android:name="mono.android.app.Application" android:debuggable="true">
-    <activity android:icon="@drawable/icon" android:label="Demo.Droid" android:name="demo.droid.MainActivity">
+  <application android:name="demo.droid.Application" android:theme="@android:style/Theme.Holo.Light" android:debuggable="true">
+    <activity android:label="ActivityPersonas" android:name="demo.droid.ActivityPersonas">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

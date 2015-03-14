@@ -59,7 +59,7 @@ namespace Demo.Droid
 				error = exc.Message;
 			}
 
-			new AlertDialog.Builder()
+			new AlertDialog.Builder(this)
 				.SetTitle("Error")
 				.SetMessage(error)
 				.SetPositiveButton("Aceptar", (IDialogInterfaceOnClickListener)null)

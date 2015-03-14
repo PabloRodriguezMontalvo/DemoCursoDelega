@@ -1,8 +1,8 @@
 package demo.droid;
 
 
-public class MainActivity
-	extends android.app.Activity
+public class ActivityPersonas
+	extends demo.droid.BaseActivity_1
 	implements
 		mono.android.IGCUserPeer
 {
@@ -10,16 +10,17 @@ public class MainActivity
 	static {
 		__md_methods = 
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
+			"n_onResume:()V:GetOnResumeHandler\n" +
 			"";
-		mono.android.Runtime.register ("Demo.Droid.MainActivity, Demo.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", MainActivity.class, __md_methods);
+		mono.android.Runtime.register ("Demo.Droid.ActivityPersonas, Demo.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", ActivityPersonas.class, __md_methods);
 	}
 
 
-	public MainActivity () throws java.lang.Throwable
+	public ActivityPersonas () throws java.lang.Throwable
 	{
 		super ();
-		if (getClass () == MainActivity.class)
-			mono.android.TypeManager.Activate ("Demo.Droid.MainActivity, Demo.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+		if (getClass () == ActivityPersonas.class)
+			mono.android.TypeManager.Activate ("Demo.Droid.ActivityPersonas, Demo.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
 
@@ -29,6 +30,14 @@ public class MainActivity
 	}
 
 	private native void n_onCreate (android.os.Bundle p0);
+
+
+	public void onResume ()
+	{
+		n_onResume ();
+	}
+
+	private native void n_onResume ();
 
 	java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)

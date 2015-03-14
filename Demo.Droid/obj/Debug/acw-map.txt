@@ -1,4 +1,7 @@
-Demo.Droid.MainActivity;demo.droid.MainActivity
+Demo.Droid.BaseActivity`1;demo.droid.BaseActivity_1
+Demo.Droid.ActivityPersonas;demo.droid.ActivityPersonas
+Demo.Droid.ActivityPersonas.Adapter;demo.droid.ActivityPersonas_Adapter
+Demo.Droid.Application;demo.droid.Application
 Xamarin.Auth._MobileServices.AndroidAccountStore.SecretAccount;xamarin.auth._mobileservices.AndroidAccountStore_SecretAccount
 Xamarin.Auth._MobileServices.FormAuthenticatorActivity;xamarin.auth._mobileservices.FormAuthenticatorActivity
 Xamarin.Auth._MobileServices.FormAuthenticatorActivity.State;xamarin.auth._mobileservices.FormAuthenticatorActivity_State
