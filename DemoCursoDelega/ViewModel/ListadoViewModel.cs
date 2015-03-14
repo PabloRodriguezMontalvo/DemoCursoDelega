@@ -18,7 +18,7 @@ namespace DemoCursoDelega.ViewModel
 
 		public async Task CargarDatos(){
 		
-			IsBusy = true;
+			//IsBusy = true;
 
 			try{
 				personas=await servicio.GetPersonas();

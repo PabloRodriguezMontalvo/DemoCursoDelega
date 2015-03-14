@@ -32,6 +32,14 @@ namespace Demo.Droid
 			lsPersonas.Adapter = adapter;
 
 			btnAdd = FindViewById<Button> (Resource.Id.btnAdd);
+			btnAdd.Click += OnAddClick;
+
+		}
+
+		protected void OnAddClick(Object IntentSender,EventArgs e){
+
+			StartActivity (typeof(AltaActivity));
+		
 		}
 
 		protected async override void OnResume ()

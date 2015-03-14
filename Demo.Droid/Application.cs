@@ -20,6 +20,7 @@ namespace Demo.Droid
 			base.OnCreate ();
 
 			ServiceContainer.Register<ListadoViewModel> ();
+			ServiceContainer.Register<AltaViewModel> ();
 			ServiceContainer.Register<IServicioWeb> (()=>new ServicoWebImpl());
 
 		}

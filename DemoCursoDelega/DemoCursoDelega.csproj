@@ -38,6 +38,7 @@
     <Compile Include="Utilidades\Mvvm\PropertyChangedBase.cs" />
     <Compile Include="ViewModel\ViewModelBase.cs" />
     <Compile Include="ViewModel\ListadoViewModel.cs" />
+    <Compile Include="ViewModel\AltaViewModel.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup>

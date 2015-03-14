@@ -23,3 +23,4 @@
 /Users/luisfelipegillamaignere/Projects/DemoCursoDelega/Demo.Droid/bin/Debug/System.Net.Http.Primitives.dll
 /Users/luisfelipegillamaignere/Projects/DemoCursoDelega/Demo.Droid/bin/Debug/DemoCursoDelega.dll
 /Users/luisfelipegillamaignere/Projects/DemoCursoDelega/Demo.Droid/bin/Debug/DemoCursoDelega.dll.mdb
+/Users/luisfelipegillamaignere/Projects/DemoCursoDelega/Demo.Droid/obj/Debug/res/layout/altapersona.xml
